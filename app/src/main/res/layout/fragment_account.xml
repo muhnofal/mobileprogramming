@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:background="#0000AF"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:id="@+id/TittleAF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="My Account"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/profilePictAF"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dp"
+        android:background="@drawable/white_circle">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tittle2AF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="200dp"
+        android:text="Username"
+        android:textColor="#0000AF"
+        android:textSize="15dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/usernameBoxAF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="230dp"
+        android:width="350dp"
+        android:height="40dp"
+        android:background="@drawable/text_edge"
+        android:textStyle="italic|bold"
+        android:textColor="#000000">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tittle3AF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="300dp"
+        android:text="Email"
+        android:textColor="#0000AF"
+        android:textSize="15dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/emailBoxAF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="330dp"
+        android:width="350dp"
+        android:height="40dp"
+        android:background="@drawable/text_edge"
+        android:textStyle="italic|bold"
+        android:textColor="#000000">
+    </TextView>
+
+    <Button
+        android:id="@+id/editProfilAF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="480dp"
+        android:width="150dp"
+        android:text="Edit Profile"
+        android:textColor="#0000AF"
+        android:background="@drawable/button_edge_2"
+        android:padding="2dp"/>
+
+
+</FrameLayout>
